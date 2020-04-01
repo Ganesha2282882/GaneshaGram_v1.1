@@ -14,7 +14,7 @@ if main == "post":
   f.close()
   print("Thank you for posting!")
 
-if main == "view":
+elif main == "view":
   f = open("posts.txt", "r")
   print(f.read()) 
   print("It looks like you reached the end! :(")
